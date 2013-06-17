@@ -10,7 +10,7 @@ settings.py
 
     EMAIL_USER_FROM_DEFAULT = 'Example <no-reply@example.com>'
     EMAIL_TEMPLATE_FOLDER = 'email'
-    EMAIL_SUBJECT_PREFIX = '[MySN]'
+    EMAIL_SUBJECT_PREFIX = '[TS Mailer]'
 
 _____________
 Example of usage:
