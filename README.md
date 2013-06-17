@@ -21,7 +21,7 @@ Example of usage:
     users.append(User.objects.get(username='admin'))
     users.append(User.objects.get(username='sunno'))
     mail = Mailer()
-    mail.users = users
-    mail.set_message('test.html', {'test': 'blablaa'})
+    mail.setUsers = users
+    mail.setMessage('test.html', {'test': 'blablaa'})
     mail.subject = 'test email'
     mail.send()
