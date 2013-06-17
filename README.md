@@ -3,16 +3,18 @@ TS-Mailer
 
 A class for sending emails in django using template system
 
-Configuration
 _____________
+Configuration
+
 settings.py
 
 EMAIL_USER_FROM_DEFAULT = 'Example <no-reply@example.com>'
 EMAIL_TEMPLATE_FOLDER = 'email'
 EMAIL_SUBJECT_PREFIX = '[MySN]'
 
+_____________
 Example of usage:
-_________________
+
 from django.contrib.auth.models import User
 users = []
 users.append(User.objects.get(username='admin'))
